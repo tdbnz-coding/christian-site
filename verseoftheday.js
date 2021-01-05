@@ -15,7 +15,7 @@ function tb_verse_of_the_day(type, callback) {
     var spinner = document.createElement('img');
     spinner.setAttribute('id', 'votd-spinner1');
     spinner.setAttribute('src', 'https://thebible.life/images/widgets/spinner1a.gif');
-    spinner.setAttribute('title', 'Loading Bible Verse Of The Day From TheBible.life');
+    spinner.setAttribute('title', 'Loading Bible Verse Of The Day');
     spinner.setAttribute('align','middle');
     spinner.style.display = 'block';
     container1.appendChild(spinner);
@@ -64,7 +64,7 @@ function tb_verse_of_the_day(type, callback) {
                 callbackwidget1(request1.responseText, request1);
 
                 var span = document.createElement('span');
-                span.innerHTML = ' <a href="https://thebible.life/bible-verse-of-the-day-widget-for-your-site" target="_blank" title="TheBible.life Free Online Bible Study Web Site">TheBible.life</a>';
+                span.innerHTML = ' <a href="https://bowlar.com" target="_blank" title="Sponsered By">Bowlar.com</a>';
                 container1.appendChild(span);
             }
         };
